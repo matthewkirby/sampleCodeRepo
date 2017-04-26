@@ -17,10 +17,74 @@ def myAdd(a, b):
     return a+b
 
 def mySub(a, b):
-    return a-b
+    """
+    Find the absolute difference between the two inputs
 
-def myMul(a, b):
-    return float(a*b)
+    Parameters
+    ----------
+    a : int or float
+        First number
+    b : int or float
+        Second number
 
-def myDiv(a, b):
-    return float(a)/float(b)
+    Returns
+    -------
+    int or float
+        Returns the difference between the two inputs
+    """
+    if a>b:
+        return a-b
+    elif b>a:
+        return b-a
+    else:
+        return 0
+
+class performCalcs():
+    """
+    Adds and subtracts two numbers
+
+    Parameters
+    ----------
+    a : int or float
+        The first of two numbers to perform the calculation
+    b : int or float
+        The second of two numbers to perform the calculation
+    """
+
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def myAdd(self):
+        """
+        Adds the class' two numbers together
+
+        Returns
+        -------
+        int or float
+            Returns the sum of the class' two numbers
+        """
+        return a+b
+
+    def mySub(a, b):
+        """
+        Find the absolute difference between the two numbers in the object
+
+        Parameters
+        ----------
+        a : int or float
+            First number
+        b : int or float
+            Second number
+
+        Returns
+        -------
+        int or float
+            Returns the absolute difference between the two numbers in the object
+        """
+        if a>b:
+            return a-b
+        elif b>a:
+            return b-a
+        else:
+            return 0
