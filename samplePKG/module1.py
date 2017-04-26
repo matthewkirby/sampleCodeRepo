@@ -64,9 +64,9 @@ class performCalcs():
         int or float
             Returns the sum of the class' two numbers
         """
-        return a+b
+        return self.a+self.b
 
-    def mySub(a, b):
+    def mySub(self):
         """
         Find the absolute difference between the two numbers in the object
 
@@ -82,6 +82,7 @@ class performCalcs():
         int or float
             Returns the absolute difference between the two numbers in the object
         """
+        a, b = self.a, self.b
         if a>b:
             return a-b
         elif b>a:
