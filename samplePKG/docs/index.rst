@@ -15,6 +15,7 @@ Citing this code
 There's no way to cite this code right now.  But it would be great if you acknowledge Matthew Kirby if you use it.  Someday I hope to put it up on `Zenodo <https://zenodo.org/>`_, though...
 
 .. toctree::
+   api_dcs
    :maxdepth: 2
    :caption: Contents:
 
