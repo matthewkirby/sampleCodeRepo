@@ -14,7 +14,8 @@ def myAdd(a, b):
     int or float
         Returns the sum of the two parameters
     """
-    return a+b
+    x = a+b
+    return x
 
 def mySub(a, b):
     """
@@ -32,12 +33,14 @@ def mySub(a, b):
     int or float
         Returns the difference between the two inputs
     """
+    diff = 0
     if a>b:
-        return a-b
+        diff = a-b
     elif b>a:
-        return b-a
+        diff = b-a
     else:
-        return 0
+        diff = 0
+    return diff
 
 class performCalcs():
     """
